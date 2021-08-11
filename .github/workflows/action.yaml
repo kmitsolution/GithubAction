@@ -2,7 +2,7 @@ name: First Workflow
 
 on: [push]
 jobs:
-  commands:
+  run-shell-command:
     runs-on: ubuntu:latest
     steps:
      - name: simple echo command
