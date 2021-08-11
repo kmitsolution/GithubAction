@@ -1,0 +1,9 @@
+name: First Workflow
+
+on: [push]
+jobs:
+  commands:
+    runs-on: ubuntu:latest
+    steps:
+     - name: simple echo command
+       run: "Welcome To GitHub Action"
