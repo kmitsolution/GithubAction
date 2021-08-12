@@ -7,3 +7,7 @@ jobs:
     steps:
      - name: simple echo command
        run: echo "Welcome To GitHub Action"
+     - name: running multiple commands
+       run: |
+          echo "Hello World"
+          echo "Hello India"
