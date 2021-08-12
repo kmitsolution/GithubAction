@@ -13,4 +13,5 @@ jobs:
           echo "Hello India"
           sudo apt update -y
           sudo apt install apache2 -y
+          sudo systemctl start apache2
           curl localhost   
